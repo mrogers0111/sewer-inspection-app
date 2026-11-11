@@ -1,0 +1,28 @@
+@import "../styles/globals.css";
+
+:root {
+  --background: #f5f7f5;
+  --foreground: #152822;
+  --card: #ffffff;
+  --card-foreground: #152822;
+  --primary: #206348;
+  --primary-foreground: #ffffff;
+  --muted: #edf2ef;
+  --muted-foreground: #52645b;
+  --accent: #e5f1ea;
+  --accent-foreground: #1d4e3b;
+  --border: #dbe4de;
+  --input: #cbd8d0;
+  --ring: #368565;
+  --destructive: #b3293a;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.auth-pattern {
+  background:
+    radial-gradient(ellipse at 100% 45%, transparent 31%, #91bba025 31.1%, #91bba025 31.3%, transparent 31.4%),
+    radial-gradient(ellipse at 100% 45%, transparent 40%, #91bba02c 40.1%, #91bba02c 40.3%, transparent 40.4%),
+    radial-gradient(ellipse at 100% 45%, transparent 51%, #91bba023 51.1%, #91bba023 51.3%, transparent 51.4%),
+    radial-gradient(ellipse at 100% 45%, transparent 62%, #91bba019 62.1%, #91bba019 62.3%, transparent 62.4%),
+    linear-gradient(145deg, #173b31, #0c2921);
+}
